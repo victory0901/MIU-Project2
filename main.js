@@ -1,7 +1,7 @@
 
-//MIU Project 1
+//MIU Project 2
 //James Floyd II 
-//March 30, 2012
+//April 5, 2012
 
 //Wait for DOM to be ready
 window.addEventListener("DOMContentLoaded", function(){

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <!--
 
-MIU Project 1
+MIU Project 2
 James Floyd II 
-March 30, 2012
+April 5, 2012
 
 -->
 
@@ -17,42 +17,62 @@ March 30, 2012
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		<meta name="HandheldFriendly" content="True"/>
 		<meta name="MobileOptimized" content="320"/>
-		<link href="styles.css" rel="stylesheet" />
+		
+<!-- Mobile IE needs ClearType for smoothing fonts -->
+		<meta http-equiv="cleartype" content="on">
+		
+<!-- StyleSheets under here -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+		<link rel="stylesheet" href="styles.css"/>
+
+<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+		<script src="js/libs/modernizr.custom.min.js"></script>
+	
 		<title>Christmas Shopping List</title>
 	</head>
 	<body>
-		<h2>Christmas Shopping List</h2>
-		<p>
-		<a href="additem.html">
-			<img width="280" src="images/Call_To_Action.png" />
-		</a>
-		</p>
-		<p>This app allows you to create a shopping list for Christmas gifts!</p>
-		<h1>Browse</h1>
-		<p>
-    	<img width="280" src = "images/Gift.png"
-         alt = "Browse by Gift" />
-  		</p>
-		<p>
-    	<img width="280" src = "images/First_Name.png"
-         alt = "Browse by First Name" />
-  		</p>
-  		<p>
-    	<img width="280" src = "images/Last_Name.png"
-         alt = "Browse by Last Name" />
-  		</p>
-  		<p>
-    	<img width="280" src = "images/Family_button.png"
-         alt = "Browse by Family" />
-  		</p>
-  		<p>
-    	<img width="280" src = "images/Non-Family_button.png"
-         alt = "Browse by Non-Family" />
-  		</p>
-  		<form id="search" method="get">
-			<input type="search" id="s" name="s">
-			<input type="submit" value="Search">
-		</form>
+		<div data-role="page" id="home">
+			<div data-role="header" data-position="fixed">
+				<h3>Christmas Shopping List</h3>
+			</div>
+		
+		
+			<p>
+			<a href="additem.html">
+				<img width="280" src="images/Call_To_Action.png" />
+			</a>
+			</p>
+			<p>This app allows you to create a shopping list for Christmas gifts!</p>
+			<h1>Browse</h1>
+			<p>
+    		<img width="280" src = "images/Gift.png"
+         	alt = "Browse by Gift" />
+  			</p>
+			<p>
+    		<img width="280" src = "images/First_Name.png"
+        	alt = "Browse by First Name" />
+  			</p>
+  			<p>
+    		<img width="280" src = "images/Last_Name.png"
+        	 alt = "Browse by Last Name" />
+  			</p>
+  			<p>
+    		<img width="280" src = "images/Family_button.png"
+        	 alt = "Browse by Family" />
+  			</p>
+  			<p>
+    		<img width="280" src = "images/Non-Family_button.png"
+        	 alt = "Browse by Non-Family" />
+  			</p>
+  			<form id="search" method="get">
+				<input type="search" id="s" name="s">
+				<input type="submit" value="Search">
+			</form>
+			
+			<div data-role="footer" data-position="fixed">
+				<h4>Footer</h4>
+			</div>
+		</div>
 		<script src="main.js" type="text/javascript"></script>
 	</body>
 </html>
