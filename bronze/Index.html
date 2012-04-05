@@ -46,14 +46,59 @@ BRONZE App
 			<p>This app allows you to create a shopping list for Christmas gifts!</p> 
 			
 			<div data-role="content">
-				<ul data-role="listview" data-filter="true"> <!-- Search -->
-					<li data-role="list-divider">Browse</li>
-					<li><a href="#gift">Browse by Gift</a></li>
-					<li><a href="#gift">Browse by First Name</a></li>
-					<li><a href="#gift">Browse by Last Name</a></li>
-					<li><a href="#gift">Browse by Family</a></li>
-					<li><a href="#gift">Browse by Non-Family</a></li>
-				</ul>
+				
+				<div data-role="collapsible-set">
+					
+					<div data-role="collapsible" data-collapsed="true">
+						<h3>Browse Gifts</h3>
+						<ul data-role="listview">
+							<li>Electronics</li>
+							<li>Clothing</li>
+							<li>Gift Cards</li>
+							<li>Appliances</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-collapsed="true">
+						<h3>Browse by First Name</h3>
+						<ul data-role="listview">
+							<li>A-F</li>
+							<li>G-M</li>
+							<li>N-S</li>
+							<li>T-Z</li>
+							<li>All Names</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-collapsed="true">
+						<h3>Browse by Last Name</h3>
+						<ul data-role="listview">
+							<li>A-F</li>
+							<li>G-M</li>
+							<li>N-S</li>
+							<li>T-Z</li>
+							<li>All Names</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-collapsed="true">
+						<h3>Browse Family</h3>
+						<ul data-role="listview">
+							<li>Parents</li>
+							<li>Children</li>
+							<li>Aunts/Uncles</li>
+							<li>Siblings</li>
+							<li>Cousins</li>
+						</ul>
+					</div>
+					<div data-role="collapsible" data-collapsed="true">
+						<h3>Browse Non-Family</h3>
+						<ul data-role="listview">
+							<li>Friends</li>
+							<li>Co-Workers</li>
+							<li>Other</li>
+						</ul>
+					</div>
+				
+				</div>			
+
 			</div>
 			
 			<!-- Content Ends -->
