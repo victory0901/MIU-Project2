@@ -45,33 +45,23 @@ April 5, 2012
 			</div>
 			
 			<!-- Call to Action ends -->
-			<p>This app allows you to create a shopping list for Christmas gifts!</p>
-			<h1>Browse</h1>
-			<p>
-    		<img width="280" src = "images/Gift.png"
-         	alt = "Browse by Gift" />
-  			</p>
-			<p>
-    		<img width="280" src = "images/First_Name.png"
-        	alt = "Browse by First Name" />
-  			</p>
-  			<p>
-    		<img width="280" src = "images/Last_Name.png"
-        	 alt = "Browse by Last Name" />
-  			</p>
-  			<p>
-    		<img width="280" src = "images/Family_button.png"
-        	 alt = "Browse by Family" />
-  			</p>
-  			<p>
-    		<img width="280" src = "images/Non-Family_button.png"
-        	 alt = "Browse by Non-Family" />
-  			</p>
+			
+			<p>This app allows you to create a shopping list for Christmas gifts!</p> 
+			
+			<div data-role="content">
+				<ul data-role="listview" data-filter="true"> <!-- Search -->
+					<li data-role="list-divider">Browse</li>
+					<li><a href="#gift">Browse by Gift</a></li>
+					<li><a href="#gift">Browse by First Name</a></li>
+					<li><a href="#gift">Browse by Last Name</a></li>
+					<li><a href="#gift">Browse by Family</a></li>
+					<li><a href="#gift">Browse by Non-Family</a></li>
+				</ul>
+			</div>
+			
+			<!-- Content Ends -->
 			<div data-role="footer" data-position="fixed">
-				<form id="search" method="get">
-					<input type="search" id="s" name="s">
-					<input type="submit" value="Search">
-				</form>
+				<h3>Footer</h3>
 			</div>
 		</div>
 	<!-- JavaScript under here -->
