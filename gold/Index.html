@@ -37,7 +37,7 @@ GOLD App
 				<h1>Christmas Shopping List</h1>
 			</div> <!-- Header ends -->
 			
-			<div>
+			<div class="ui-bar">
 			<a href="additem.html" data-ajax="false" >
 				<img  src="images/Call_To_Action.png" /> 
 			</a>
@@ -48,25 +48,155 @@ GOLD App
 			<div data-role="content">
 				<ul data-role="listview" data-filter="true"> <!-- Search -->
 					<li data-role="list-divider">Browse</li>
-					<li><a href="#gift">Browse by Gift</a></li>
-					<li><a href="#gift">Browse by First Name</a></li>
-					<li><a href="#gift">Browse by Last Name</a></li>
-					<li><a href="#gift">Browse by Family</a></li>
-					<li><a href="#gift">Browse by Non-Family</a></li>
+					<li><a href="#gift">Browse Gifts</a></li>
+					<li><a href="#fname">Browse by First Name</a></li>
+					<li><a href="#lname">Browse by Last Name</a></li>
+					<li><a href="#family">Browse Family</a></li>
+					<li><a href="#nonfamily">Browse Non-Family</a></li>
 				</ul>
-			</div>
+			</div> <!-- Browse Categories ends -->
 			
-			<!-- Content Ends -->
 			<div data-role="footer" data-position="fixed">		
 				<div data-role="navbar">
 				<ul>
-					<li><a href="index.html" data-ajax="false" >Home</a></li>
-					<li><a href="../bronze/index.html" data-ajax="false" >Bronze App</a></li>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="../bronze/index.html" data-role="button" data-icon="star" data-ajax="false" >Bronze App</a></li>
 					<li><a href="http://victory0901.github.com/MIU-Project2">GH-Pages</a></li>
 				</ul>
 				</div><!-- Navbar ends -->
 			</div><!-- Footer ends -->
-		</div>
+		</div> <!-- Home Page Ends -->
+		
+		
+		
+		
+		<div data-role="page" id="gift" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Browse Gifts</h1>
+			</div>
+		
+			<div data-role="content">
+				<ul data-role="listview">
+					<li>Electronics</li>
+					<li>Clothing</li>
+					<li>Gift Cards</li>
+					<li>Appliances</li>
+				</ul>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">		
+				<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="../bronze/index.html" data-role="button" data-icon="star" data-ajax="false" >Bronze App</a></li>
+					<li><a href="http://victory0901.github.com/MIU-Project2">GH-Pages</a></li>
+				</ul>
+				</div><!-- Navbar ends -->
+			</div><!-- Footer ends -->
+		</div> <!-- Gift Page ends -->
+		
+		<div data-role="page" id="fname" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Browse by First Name</h1>
+			</div>
+		
+			<div data-role="content">
+				<ul data-role="listview">
+					<li>A-F</li>
+					<li>G-M</li>
+					<li>N-S</li>
+					<li>T-Z</li>
+					<li>All Names</li>
+				</ul>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">		
+				<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="../bronze/index.html" data-role="button" data-icon="star" data-ajax="false" >Bronze App</a></li>
+					<li><a href="http://victory0901.github.com/MIU-Project2">GH-Pages</a></li>
+				</ul>
+				</div><!-- Navbar ends -->
+			</div><!-- Footer ends -->
+		</div> <!-- FirstName Page ends -->
+		
+		<div data-role="page" id="lname" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Browse by Last Name</h1>
+			</div>
+		
+			<div data-role="content">
+				<ul data-role="listview">
+					<li>A-F</li>
+					<li>G-M</li>
+					<li>N-S</li>
+					<li>T-Z</li>
+					<li>All Names</li>
+				</ul>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">		
+				<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="../bronze/index.html" data-role="button" data-icon="star" data-ajax="false" >Bronze App</a></li>
+					<li><a href="http://victory0901.github.com/MIU-Project2">GH-Pages</a></li>
+				</ul>
+				</div><!-- Navbar ends -->
+			</div><!-- Footer ends -->
+		</div> <!-- LastName Page ends -->
+		
+		<div data-role="page" id="family" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Browse Family</h1>
+			</div>
+		
+			<div data-role="content">
+				<ul data-role="listview">
+					<li>Parents</li>
+					<li>Children</li>
+					<li>Aunts/Uncles</li>
+					<li>Siblings</li>
+					<li>Cousins</li>
+				</ul>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">		
+				<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="../bronze/index.html" data-role="button" data-icon="star" data-ajax="false" >Bronze App</a></li>
+					<li><a href="http://victory0901.github.com/MIU-Project2">GH-Pages</a></li>
+				</ul>
+				</div><!-- Navbar ends -->
+			</div><!-- Footer ends -->
+		</div> <!-- Family Page ends -->
+		
+		<div data-role="page" id="nonfamily" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Browse Non-Family</h1>
+			</div>
+		
+			<div data-role="content">
+				<ul data-role="listview">
+					<li>Friends</li>
+					<li>Co-Workers</li>
+					<li>Other</li>
+				</ul>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">		
+				<div data-role="navbar">
+				<ul>
+					<li><a href="index.html" data-role="button" data-icon="home" data-ajax="false" >Home</a></li>
+					<li><a href="../bronze/index.html" data-role="button" data-icon="star" data-ajax="false" >Bronze App</a></li>
+					<li><a href="http://victory0901.github.com/MIU-Project2">GH-Pages</a></li>
+				</ul>
+				</div><!-- Navbar ends -->
+			</div><!-- Footer ends -->
+		</div> <!-- Non-Family Page ends -->
+		
 	<!-- JavaScript under here -->
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
